@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="ContactStyle.css" />
+  </head>
+  <body>
+    <!-- Nav bar start -->
+    <div>
+      <nav>
+        <div class="menu">
+          <div class="logo">
+            <a href="Home.html">HK</a>
+          </div>
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Destination.html">Destination</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Nav bar End -->
+    <div class="contactBox">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <form action="" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="subject">Subject:</label>
+          <input type="text" id="subject" name="subject" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

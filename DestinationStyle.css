@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, "popins";
+  }
+  /* nav bar start */
+  nav {
+    position: fixed;  
+    padding: 10px 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+  }
+  nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0 20px;
+  }
+  .menu .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul {
+    display: inline-flex;
+  }
+  .menu ul li {
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transform: all 0.3s ease;
+  }
+  .menu ul li a:hover {
+    background: #fff;
+    color: #000;
+  }
+  /* nav bar end */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(Images/image2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.container{
+    padding: 0 7%;
+
+}
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 22%;
+}
+.search-bar{
+    background: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+.search-bar form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.search-bar form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+
+}
+.search-bar form button{
+    background: #ff5341;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.search-bar form button img{
+    width: 15px;
+    margin-top: 7px;
+}
+.location-input{
+    flex: 2;
+}
+.search-bar form label{
+    font-weight: 600;
+
+}
+/* exclusives */
+.sub-title{
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+
+}
+.exclusives{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+.exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.exclusives div{
+    position: relative;
+}
+.exclusives div span{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+
+/* Trending Places */
+
+.trending{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap: 30px;
+
+
+}
+.trending div img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* image box */
+
+.imagebox{
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f2323, transparent),url(Images/banner-2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+.imagebox h3{
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+
+}
+.imagebox p{
+    font-size: 10px;
+    margin: 10px 0;
+}
+.imagebox-btn{
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 8px;
+}
+/* traveller stories */
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+
+}
+.stories div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.lastbox{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(Images/image4.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+/* footer */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #fff;
+    cursor: pointer;
+    
+
+}
+
+.footer-bottom {
+    border-top: 1px solid #555;
+    padding: 10px 0;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
